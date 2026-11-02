@@ -36,24 +36,15 @@ Okuma/yazma yüzdeli ilerleme çubuğunda izlenir. Başarıyla bitince tamamland
 
 Liste ve son cihaz yedeği tarayıcıda tutulur. Tarayıcı verilerinin silinmesine karşı CSV kopyalarını bilgisayarına indir. Her yeni cihaz yedeği önceki son yedeğin yerini alır. Durdurma veya hata, daha önce yazılmış kanalları geri almaz.
 
-## Kendi GitHub Pages kopyanı kur
+## English usage
 
+1. Open **[the app](https://ta5yy.github.io/bc95xlt-web/)** in desktop Chrome or Edge. Install your USB/serial cable driver if needed.
+2. Connect and switch on the receiver. Close other programs using its serial port.
+3. Choose **Connect receiver**, select the port, then **Read 200 channels**.
+4. Download a CSV backup. Double-click a row to edit, or use the context menu to move, copy, swap or clear channels. Existing CSV files can also be opened.
+5. Choose **Write to receiver**. The app reads a fresh backup before writing; download it and confirm the write.
 
-Uygulama için dört ana dosya yeterlidir. Ayrıntılı kurulum kılavuzu indirilen ZIP içinde bulunur.
-
-1. GitHub'da `bc95xlt-web` adlı public depo oluştur.
-2. `index.html`, `style.css`, `core.js`, `app.js` dosyalarını depo köküne yükle.
-3. **Settings → Pages → Deploy from a branch → main → / (root) → Save**.
-4. Pages'in verdiği HTTPS adresini Windows Chrome/Edge ile aç.
-5. ARC95'i kapat; **Cihazı bağla** ile port seç; önce **200 kanalı oku**.
-
-## English setup
-
-1. Create a public GitHub repository named `bc95xlt-web`.
-2. Upload `index.html`, `style.css`, `core.js`, and `app.js` to its root.
-3. Select **Settings → Pages → Deploy from a branch → main → / (root) → Save**.
-4. Open the published HTTPS URL in desktop Chrome/Edge.
-5. Close ARC95, connect the receiver, choose **Connect receiver**, then **Read 200 channels**.
+The progress bar shows the percentage completed. A dialog confirms successful completion. During writes, the first 50% covers the backup read; progress may pause there while waiting for confirmation. Each written channel is read back and checked.
 
 ## Features / Özellikler
 

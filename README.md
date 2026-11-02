@@ -2,7 +2,7 @@
 
 **[▶ Uygulamayı aç / Open the app](https://ta5yy.github.io/bc95xlt-web/)**
 
-**TA5YY · Ali Yılmaz YILDIZ**
+**TA5YY**
 
 Uniden BC95XLT alıcısının 200 kanalını USB/seri kablo üzerinden tarayıcıdan okuyup düzenlemek ve cihaza yazmak için Türkçe / İngilizce uygulama. Python veya ARC95 kurulumu gerekmez.
 
